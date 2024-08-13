@@ -41,14 +41,14 @@ struct ContentView: View {
         } label: {
             HStack{
                 if isGridView {
-                    Image("list")
+                    Image("Grid")
                         .resizable()
                         .frame(width: 18, height: 18)
                         .padding()
                         .background(Color("ColorForChangeButton"))
                         .cornerRadius(12)
                 } else {
-                    Image("Grid")
+                    Image("list")
                         .resizable()
                         .frame(width: 18, height: 18)
                         .padding()
