@@ -13,7 +13,6 @@
 		0AE1C6772C6A71880012E553 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE1C6762C6A71880012E553 /* Preview Assets.xcassets */; };
 		0AE1C67E2C6A93C20012E553 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C67D2C6A93C20012E553 /* Models.swift */; };
 		0AE1C6802C6A960E0012E553 /* VerticalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C67F2C6A960E0012E553 /* VerticalCardView.swift */; };
-		0AE1C6822C6AB5460012E553 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C6812C6AB5460012E553 /* CardListView.swift */; };
 		0AE1C6842C6B5AA10012E553 /* HorizontalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C6832C6B5AA10012E553 /* HorizontalCardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 		0AE1C6762C6A71880012E553 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0AE1C67D2C6A93C20012E553 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		0AE1C67F2C6A960E0012E553 /* VerticalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCardView.swift; sourceTree = "<group>"; };
-		0AE1C6812C6AB5460012E553 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
 		0AE1C6832C6B5AA10012E553 /* HorizontalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +62,6 @@
 				0AE1C6712C6A71860012E553 /* ContentView.swift */,
 				0AE1C6832C6B5AA10012E553 /* HorizontalCardView.swift */,
 				0AE1C67F2C6A960E0012E553 /* VerticalCardView.swift */,
-				0AE1C6812C6AB5460012E553 /* CardListView.swift */,
 				0AE1C6732C6A71880012E553 /* accets.xcassets */,
 				0AE1C6752C6A71880012E553 /* Preview Content */,
 			);
@@ -151,7 +148,6 @@
 			files = (
 				0AE1C67E2C6A93C20012E553 /* Models.swift in Sources */,
 				0AE1C6722C6A71860012E553 /* ContentView.swift in Sources */,
-				0AE1C6822C6AB5460012E553 /* CardListView.swift in Sources */,
 				0AE1C6802C6A960E0012E553 /* VerticalCardView.swift in Sources */,
 				0AE1C6842C6B5AA10012E553 /* HorizontalCardView.swift in Sources */,
 				0AE1C6702C6A71860012E553 /* SparInterTaskApp.swift in Sources */,

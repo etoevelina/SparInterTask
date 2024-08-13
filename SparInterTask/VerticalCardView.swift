@@ -173,6 +173,7 @@ struct VerticalCardView: View {
                         Image("Favorites")
                             .resizable()
                             .frame(width: 16, height: 16)
+                            .opacity(0.4)
                     }
                     Button{
                         
@@ -202,6 +203,6 @@ struct VerticalCardView: View {
 
 
 #Preview {
-    VerticalCardView(card: Card(name: "Салат Овощной с Крабовыми Палочками", priceRub: "250", priceKop: "99", PreviosPrice: "1100", IfUdar: false, IfNew: false, IfByCard: true, raitingPoint: "4.3", ImageName: "Image1", countryName: "Франция 🇫🇷", sale: "25%"))
+    VerticalCardView(card: Card(name: "Салат Овощной с Крабовыми Палочками", priceRub: "250", priceKop: "99", PreviosPrice: "1100", IfUdar: false, IfNew: false, IfByCard: true, raitingPoint: "4.3", amountOfReviews: "", ImageName: "Image1", countryName: "Франция 🇫🇷", sale: "25%"))
 }
 
