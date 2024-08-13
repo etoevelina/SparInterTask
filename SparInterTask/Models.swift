@@ -11,7 +11,8 @@ import SwiftUI
 struct Card: Identifiable, Codable {
     var id = UUID()
     let name: String
-    let price: String
+    let priceRub: String
+    let priceKop: String
     let PreviosPrice: String
     let IfUdar: Bool
     let IfNew: Bool
@@ -19,14 +20,12 @@ struct Card: Identifiable, Codable {
     let raitingPoint: String
     let ImageName: String
     let countryName: String
-    let countryFlag: String
+    let sale: String
     
     var cardImage: Image {
         Image(ImageName)
     }
-    var flag:Image {
-        Image(countryFlag)
-    }
+
 }
 
 struct RoundedCornerShape: Shape { // 1

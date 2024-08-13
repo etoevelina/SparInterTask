@@ -9,20 +9,24 @@
 /* Begin PBXBuildFile section */
 		0AE1C6702C6A71860012E553 /* SparInterTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C66F2C6A71860012E553 /* SparInterTaskApp.swift */; };
 		0AE1C6722C6A71860012E553 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C6712C6A71860012E553 /* ContentView.swift */; };
-		0AE1C6742C6A71880012E553 /* list.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE1C6732C6A71880012E553 /* list.xcassets */; };
+		0AE1C6742C6A71880012E553 /* accets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE1C6732C6A71880012E553 /* accets.xcassets */; };
 		0AE1C6772C6A71880012E553 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE1C6762C6A71880012E553 /* Preview Assets.xcassets */; };
 		0AE1C67E2C6A93C20012E553 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C67D2C6A93C20012E553 /* Models.swift */; };
-		0AE1C6802C6A960E0012E553 /* GreedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C67F2C6A960E0012E553 /* GreedCardView.swift */; };
+		0AE1C6802C6A960E0012E553 /* VerticalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C67F2C6A960E0012E553 /* VerticalCardView.swift */; };
+		0AE1C6822C6AB5460012E553 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C6812C6AB5460012E553 /* CardListView.swift */; };
+		0AE1C6842C6B5AA10012E553 /* HorizontalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C6832C6B5AA10012E553 /* HorizontalCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0AE1C66C2C6A71850012E553 /* SparInterTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparInterTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE1C66F2C6A71860012E553 /* SparInterTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparInterTaskApp.swift; sourceTree = "<group>"; };
 		0AE1C6712C6A71860012E553 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0AE1C6732C6A71880012E553 /* list.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = list.xcassets; sourceTree = "<group>"; };
+		0AE1C6732C6A71880012E553 /* accets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = accets.xcassets; sourceTree = "<group>"; };
 		0AE1C6762C6A71880012E553 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0AE1C67D2C6A93C20012E553 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		0AE1C67F2C6A960E0012E553 /* GreedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreedCardView.swift; sourceTree = "<group>"; };
+		0AE1C67F2C6A960E0012E553 /* VerticalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCardView.swift; sourceTree = "<group>"; };
+		0AE1C6812C6AB5460012E553 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		0AE1C6832C6B5AA10012E553 /* HorizontalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 				0AE1C66F2C6A71860012E553 /* SparInterTaskApp.swift */,
 				0AE1C67D2C6A93C20012E553 /* Models.swift */,
 				0AE1C6712C6A71860012E553 /* ContentView.swift */,
-				0AE1C67F2C6A960E0012E553 /* GreedCardView.swift */,
-				0AE1C6732C6A71880012E553 /* list.xcassets */,
+				0AE1C6832C6B5AA10012E553 /* HorizontalCardView.swift */,
+				0AE1C67F2C6A960E0012E553 /* VerticalCardView.swift */,
+				0AE1C6812C6AB5460012E553 /* CardListView.swift */,
+				0AE1C6732C6A71880012E553 /* accets.xcassets */,
 				0AE1C6752C6A71880012E553 /* Preview Content */,
 			);
 			path = SparInterTask;
@@ -132,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AE1C6772C6A71880012E553 /* Preview Assets.xcassets in Resources */,
-				0AE1C6742C6A71880012E553 /* list.xcassets in Resources */,
+				0AE1C6742C6A71880012E553 /* accets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +151,9 @@
 			files = (
 				0AE1C67E2C6A93C20012E553 /* Models.swift in Sources */,
 				0AE1C6722C6A71860012E553 /* ContentView.swift in Sources */,
-				0AE1C6802C6A960E0012E553 /* GreedCardView.swift in Sources */,
+				0AE1C6822C6AB5460012E553 /* CardListView.swift in Sources */,
+				0AE1C6802C6A960E0012E553 /* VerticalCardView.swift in Sources */,
+				0AE1C6842C6B5AA10012E553 /* HorizontalCardView.swift in Sources */,
 				0AE1C6702C6A71860012E553 /* SparInterTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
